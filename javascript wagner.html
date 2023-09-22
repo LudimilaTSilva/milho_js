@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>um milho, um mate</title>
+</head>
+<body onload="milho()">
+    <script type="text/javascript">
+        function milho(){
+            var popopo = prompt("Escreva a sua idade:");
+            if(popopo < 18){
+                alert("pai, vc me dá dinheiro pra comprar um milho, um mate?");
+            }
+            else if(popopo == 18){
+                alert("oh meu deus, milho!!");
+            }
+            else if(popopo > 18){
+                alert("não tem milho :(");
+            }
+            else{
+                alert("É pra escrever número, seu IMBECIL.");
+                document.write("<h2>VOCÊ É BURRO, BURRO, BURRO, BURRO, INFELIZ, BURRO!!!!!</h2><br>Não pode colocar letra.");
+            }
+        }
+    </script>
+</body>
+</html>
